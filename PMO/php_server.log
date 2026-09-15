@@ -1,0 +1,427 @@
+[Mon Sep 14 05:33:01 2026] PHP 8.3.6 Development Server (http://localhost:8000) started
+[Mon Sep 14 05:34:05 2026] [::1]:32822 Accepted
+[Mon Sep 14 05:34:05 2026] [::1]:32822 [302]: GET /office_supplies.php
+[Mon Sep 14 05:34:05 2026] [::1]:32822 Closing
+[Mon Sep 14 05:34:05 2026] [::1]:32828 Accepted
+[Mon Sep 14 05:34:05 2026] [::1]:32828 [200]: GET /index.php
+[Mon Sep 14 05:34:05 2026] [::1]:32828 Closing
+[Mon Sep 14 05:34:05 2026] [::1]:32830 Accepted
+[Mon Sep 14 05:34:05 2026] [::1]:32846 Accepted
+[Mon Sep 14 05:34:05 2026] [::1]:32830 [200]: GET /css/index.css
+[Mon Sep 14 05:34:05 2026] [::1]:32830 Closing
+[Mon Sep 14 05:34:05 2026] [::1]:32846 [200]: GET /logo.jpg
+[Mon Sep 14 05:34:05 2026] [::1]:32846 Closing
+[Mon Sep 14 05:35:27 2026] [::1]:54146 Accepted
+[Mon Sep 14 05:35:27 2026] [::1]:54146 [200]: GET /index.php
+[Mon Sep 14 05:35:27 2026] [::1]:54146 Closing
+[Mon Sep 14 05:35:27 2026] [::1]:54154 Accepted
+[Mon Sep 14 05:35:27 2026] [::1]:54158 Accepted
+[Mon Sep 14 05:35:27 2026] [::1]:54154 [200]: GET /css/index.css
+[Mon Sep 14 05:35:27 2026] [::1]:54158 [200]: GET /logo.jpg
+[Mon Sep 14 05:35:27 2026] [::1]:54154 Closing
+[Mon Sep 14 05:35:27 2026] [::1]:54158 Closing
+[Mon Sep 14 05:35:27 2026] [::1]:54170 Accepted
+[Mon Sep 14 05:35:27 2026] [::1]:54170 [302]: POST /index.php
+[Mon Sep 14 05:35:27 2026] [::1]:54170 Closing
+[Mon Sep 14 05:35:27 2026] [::1]:54178 Accepted
+[Mon Sep 14 05:35:27 2026] [::1]:54178 [200]: GET /home.php
+[Mon Sep 14 05:35:27 2026] [::1]:54178 Closing
+[Mon Sep 14 05:35:27 2026] [::1]:54192 Accepted
+[Mon Sep 14 05:35:27 2026] [::1]:54202 Accepted
+[Mon Sep 14 05:35:27 2026] [::1]:54192 [200]: GET /css/user_dashboard.css
+[Mon Sep 14 05:35:27 2026] [::1]:54202 [200]: GET /logo.jpg
+[Mon Sep 14 05:35:27 2026] [::1]:54192 Closing
+[Mon Sep 14 05:35:27 2026] [::1]:54202 Closing
+[Mon Sep 14 05:35:28 2026] [::1]:54206 Accepted
+[Mon Sep 14 05:35:28 2026] [::1]:54206 [200]: GET /home.php?action=get_notifications
+[Mon Sep 14 05:35:28 2026] [::1]:54206 Closing
+[Mon Sep 14 05:35:28 2026] [::1]:54218 Accepted
+[Mon Sep 14 05:35:28 2026] [::1]:54218 [200]: GET /sw.js
+[Mon Sep 14 05:35:28 2026] [::1]:54218 Closing
+[Mon Sep 14 05:35:28 2026] [::1]:54224 Accepted
+[Mon Sep 14 05:35:28 2026] [::1]:54240 Accepted
+[Mon Sep 14 05:35:28 2026] [::1]:54246 Accepted
+[Mon Sep 14 05:35:28 2026] [::1]:54224 [200]: GET /
+[Mon Sep 14 05:35:28 2026] [::1]:54224 Closing
+[Mon Sep 14 05:35:28 2026] [::1]:54240 [200]: GET /index.php
+[Mon Sep 14 05:35:28 2026] [::1]:54240 Closing
+[Mon Sep 14 05:35:28 2026] [::1]:54246 [200]: GET /manifest.json
+[Mon Sep 14 05:35:28 2026] [::1]:54246 Closing
+[Mon Sep 14 05:35:28 2026] [::1]:54260 Accepted
+[Mon Sep 14 05:35:28 2026] [::1]:54276 Accepted
+[Mon Sep 14 05:35:28 2026] [::1]:54288 Accepted
+[Mon Sep 14 05:35:28 2026] [::1]:54260 [200]: GET /logo.jpg
+[Mon Sep 14 05:35:28 2026] [::1]:54276 [200]: GET /css/index.css
+[Mon Sep 14 05:35:28 2026] [::1]:54288 [200]: GET /css/user_dashboard.css
+[Mon Sep 14 05:35:28 2026] [::1]:54260 Closing
+[Mon Sep 14 05:35:28 2026] [::1]:54276 Closing
+[Mon Sep 14 05:35:28 2026] [::1]:54288 Closing
+[Mon Sep 14 05:35:28 2026] [::1]:54296 Accepted
+[Mon Sep 14 05:35:28 2026] [::1]:54302 Accepted
+[Mon Sep 14 05:35:28 2026] [::1]:54318 Accepted
+[Mon Sep 14 05:35:28 2026] [::1]:54296 [200]: GET /css/admin_dashboard.css
+[Mon Sep 14 05:35:28 2026] [::1]:54302 [200]: GET /css/admin_office.css
+[Mon Sep 14 05:35:28 2026] [::1]:54296 Closing
+[Mon Sep 14 05:35:28 2026] [::1]:54302 Closing
+[Mon Sep 14 05:35:28 2026] [::1]:54318 [200]: GET /css/admin_maintenance.css
+[Mon Sep 14 05:35:28 2026] [::1]:54318 Closing
+[Mon Sep 14 05:35:28 2026] [::1]:54320 Accepted
+[Mon Sep 14 05:35:28 2026] [::1]:54334 Accepted
+[Mon Sep 14 05:35:28 2026] [::1]:54344 Accepted
+[Mon Sep 14 05:35:28 2026] [::1]:54320 [200]: GET /css/in_stock.css
+[Mon Sep 14 05:35:28 2026] [::1]:54334 [200]: GET /css/request_history.css
+[Mon Sep 14 05:35:28 2026] [::1]:54320 Closing
+[Mon Sep 14 05:35:28 2026] [::1]:54344 [200]: GET /icons/icon-192.png
+[Mon Sep 14 05:35:28 2026] [::1]:54334 Closing
+[Mon Sep 14 05:35:28 2026] [::1]:54344 Closing
+[Mon Sep 14 05:35:28 2026] [::1]:54352 Accepted
+[Mon Sep 14 05:35:28 2026] [::1]:54352 [200]: GET /icons/icon-512.png
+[Mon Sep 14 05:35:28 2026] [::1]:54352 Closing
+[Mon Sep 14 05:35:28 2026] [::1]:54364 Accepted
+[Mon Sep 14 05:35:28 2026] [::1]:54364 [200]: GET /office_supplies.php
+[Mon Sep 14 05:35:28 2026] [::1]:54364 Closing
+[Mon Sep 14 05:35:28 2026] [::1]:54378 Accepted
+[Mon Sep 14 05:35:28 2026] [::1]:54384 Accepted
+[Mon Sep 14 05:35:28 2026] [::1]:54378 [200]: GET /css/user_dashboard.css
+[Mon Sep 14 05:35:28 2026] [::1]:54384 [200]: GET /logo.jpg
+[Mon Sep 14 05:35:28 2026] [::1]:54378 Closing
+[Mon Sep 14 05:35:28 2026] [::1]:54384 Closing
+[Mon Sep 14 05:35:30 2026] [::1]:54392 Accepted
+[Mon Sep 14 05:35:30 2026] [::1]:54392 [200]: GET /sw.js
+[Mon Sep 14 05:35:30 2026] [::1]:54392 Closing
+[Mon Sep 14 05:41:46 2026] [::1]:44616 Accepted
+[Mon Sep 14 05:41:46 2026] [::1]:44616 [200]: GET /index.php
+[Mon Sep 14 05:41:46 2026] [::1]:44616 Closing
+[Mon Sep 14 05:41:46 2026] [::1]:44624 Accepted
+[Mon Sep 14 05:41:46 2026] [::1]:44634 Accepted
+[Mon Sep 14 05:41:46 2026] [::1]:44624 [200]: GET /css/index.css
+[Mon Sep 14 05:41:46 2026] [::1]:44634 [200]: GET /logo.jpg
+[Mon Sep 14 05:41:46 2026] [::1]:44624 Closing
+[Mon Sep 14 05:41:46 2026] [::1]:44634 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44640 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44640 [302]: POST /index.php
+[Mon Sep 14 05:41:47 2026] [::1]:44640 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44644 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44644 [200]: GET /home.php
+[Mon Sep 14 05:41:47 2026] [::1]:44644 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44652 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44666 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44652 [200]: GET /css/user_dashboard.css
+[Mon Sep 14 05:41:47 2026] [::1]:44666 [200]: GET /logo.jpg
+[Mon Sep 14 05:41:47 2026] [::1]:44652 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44666 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44674 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44674 [200]: GET /home.php?action=get_notifications
+[Mon Sep 14 05:41:47 2026] [::1]:44674 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44690 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44690 [200]: GET /sw.js
+[Mon Sep 14 05:41:47 2026] [::1]:44690 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44694 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44708 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44716 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44694 [200]: GET /
+[Mon Sep 14 05:41:47 2026] [::1]:44694 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44708 [200]: GET /index.php
+[Mon Sep 14 05:41:47 2026] [::1]:44708 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44716 [200]: GET /manifest.json
+[Mon Sep 14 05:41:47 2026] [::1]:44716 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44722 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44730 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44722 [200]: GET /logo.jpg
+[Mon Sep 14 05:41:47 2026] [::1]:44730 [200]: GET /css/index.css
+[Mon Sep 14 05:41:47 2026] [::1]:44722 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44730 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44744 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44744 [200]: GET /css/user_dashboard.css
+[Mon Sep 14 05:41:47 2026] [::1]:44744 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44750 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44758 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44768 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44750 [200]: GET /css/admin_dashboard.css
+[Mon Sep 14 05:41:47 2026] [::1]:44750 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44758 [200]: GET /css/admin_office.css
+[Mon Sep 14 05:41:47 2026] [::1]:44758 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44768 [200]: GET /css/admin_maintenance.css
+[Mon Sep 14 05:41:47 2026] [::1]:44768 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44770 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44770 [200]: GET /css/in_stock.css
+[Mon Sep 14 05:41:47 2026] [::1]:44770 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44772 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44782 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44790 Accepted
+[Mon Sep 14 05:41:47 2026] [::1]:44772 [200]: GET /css/request_history.css
+[Mon Sep 14 05:41:47 2026] [::1]:44782 [200]: GET /icons/icon-192.png
+[Mon Sep 14 05:41:47 2026] [::1]:44790 [200]: GET /icons/icon-512.png
+[Mon Sep 14 05:41:47 2026] [::1]:44772 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44782 Closing
+[Mon Sep 14 05:41:47 2026] [::1]:44790 Closing
+[Mon Sep 14 05:41:48 2026] [::1]:44804 Accepted
+[Mon Sep 14 05:41:48 2026] [::1]:44804 [200]: GET /office_supplies.php
+[Mon Sep 14 05:41:48 2026] [::1]:44804 Closing
+[Mon Sep 14 05:41:48 2026] [::1]:44814 Accepted
+[Mon Sep 14 05:41:48 2026] [::1]:44828 Accepted
+[Mon Sep 14 05:41:48 2026] [::1]:44814 [200]: GET /css/user_dashboard.css
+[Mon Sep 14 05:41:48 2026] [::1]:44828 [200]: GET /logo.jpg
+[Mon Sep 14 05:41:48 2026] [::1]:44814 Closing
+[Mon Sep 14 05:41:48 2026] [::1]:44828 Closing
+[Mon Sep 14 05:41:49 2026] [::1]:44842 Accepted
+[Mon Sep 14 05:41:49 2026] [::1]:44842 [200]: GET /sw.js
+[Mon Sep 14 05:41:49 2026] [::1]:44842 Closing
+[Mon Sep 14 05:41:51 2026] [::1]:44854 Accepted
+[Mon Sep 14 05:41:51 2026] [::1]:44854 [200]: GET /place_order.php?type=office
+[Mon Sep 14 05:41:51 2026] [::1]:44854 Closing
+[Mon Sep 14 05:41:51 2026] [::1]:44870 Accepted
+[Mon Sep 14 05:41:51 2026] [::1]:44872 Accepted
+[Mon Sep 14 05:41:51 2026] [::1]:44870 [200]: GET /css/place_order.css
+[Mon Sep 14 05:41:51 2026] [::1]:44870 Closing
+[Mon Sep 14 05:41:51 2026] [::1]:44872 [200]: GET /logo.jpg
+[Mon Sep 14 05:41:51 2026] [::1]:44872 Closing
+[Mon Sep 14 05:41:53 2026] [::1]:44878 Accepted
+[Mon Sep 14 05:41:53 2026] [::1]:44878 [200]: GET /sw.js
+[Mon Sep 14 05:41:53 2026] [::1]:44878 Closing
+[Mon Sep 14 05:58:48 2026] [::1]:50496 Accepted
+[Mon Sep 14 05:58:48 2026] [::1]:50496 [200]: GET /index.php
+[Mon Sep 14 05:58:48 2026] [::1]:50496 Closing
+[Mon Sep 14 05:58:48 2026] [::1]:50498 Accepted
+[Mon Sep 14 05:58:48 2026] [::1]:50500 Accepted
+[Mon Sep 14 05:58:48 2026] [::1]:50498 [200]: GET /css/index.css
+[Mon Sep 14 05:58:48 2026] [::1]:50498 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50500 [200]: GET /logo.jpg
+[Mon Sep 14 05:58:49 2026] [::1]:50500 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50508 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50508 [302]: POST /index.php
+[Mon Sep 14 05:58:49 2026] [::1]:50508 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50510 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50510 [200]: GET /home.php
+[Mon Sep 14 05:58:49 2026] [::1]:50510 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50514 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50516 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50514 [200]: GET /css/user_dashboard.css
+[Mon Sep 14 05:58:49 2026] [::1]:50516 [200]: GET /logo.jpg
+[Mon Sep 14 05:58:49 2026] [::1]:50514 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50516 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50528 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50528 [200]: GET /home.php?action=get_notifications
+[Mon Sep 14 05:58:49 2026] [::1]:50528 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50538 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50538 [200]: GET /sw.js
+[Mon Sep 14 05:58:49 2026] [::1]:50538 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50540 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50546 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50552 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50540 [200]: GET /
+[Mon Sep 14 05:58:49 2026] [::1]:50540 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50546 [200]: GET /index.php
+[Mon Sep 14 05:58:49 2026] [::1]:50546 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50552 [200]: GET /manifest.json
+[Mon Sep 14 05:58:49 2026] [::1]:50552 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50558 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50558 [200]: GET /logo.jpg
+[Mon Sep 14 05:58:49 2026] [::1]:50558 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50562 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50578 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50562 [200]: GET /css/index.css
+[Mon Sep 14 05:58:49 2026] [::1]:50578 [200]: GET /css/user_dashboard.css
+[Mon Sep 14 05:58:49 2026] [::1]:50562 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50578 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50592 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50608 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50624 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50592 [200]: GET /css/admin_dashboard.css
+[Mon Sep 14 05:58:49 2026] [::1]:50608 [200]: GET /css/admin_office.css
+[Mon Sep 14 05:58:49 2026] [::1]:50624 [200]: GET /css/admin_maintenance.css
+[Mon Sep 14 05:58:49 2026] [::1]:50592 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50608 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50624 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50638 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50648 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50664 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50638 [200]: GET /css/in_stock.css
+[Mon Sep 14 05:58:49 2026] [::1]:50648 [200]: GET /css/request_history.css
+[Mon Sep 14 05:58:49 2026] [::1]:50664 [200]: GET /icons/icon-192.png
+[Mon Sep 14 05:58:49 2026] [::1]:50638 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50648 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50664 Closing
+[Mon Sep 14 05:58:49 2026] [::1]:50680 Accepted
+[Mon Sep 14 05:58:49 2026] [::1]:50680 [200]: GET /icons/icon-512.png
+[Mon Sep 14 05:58:49 2026] [::1]:50680 Closing
+[Mon Sep 14 05:58:50 2026] [::1]:50682 Accepted
+[Mon Sep 14 05:58:50 2026] [::1]:50682 [200]: GET /maintenance_supplies.php
+[Mon Sep 14 05:58:50 2026] [::1]:50682 Closing
+[Mon Sep 14 05:58:50 2026] [::1]:50684 Accepted
+[Mon Sep 14 05:58:50 2026] [::1]:50700 Accepted
+[Mon Sep 14 05:58:50 2026] [::1]:50684 [200]: GET /css/user_dashboard.css
+[Mon Sep 14 05:58:50 2026] [::1]:50700 [200]: GET /logo.jpg
+[Mon Sep 14 05:58:50 2026] [::1]:50684 Closing
+[Mon Sep 14 05:58:50 2026] [::1]:50700 Closing
+[Mon Sep 14 05:58:52 2026] [::1]:52620 Accepted
+[Mon Sep 14 05:58:52 2026] [::1]:52620 [200]: GET /sw.js
+[Mon Sep 14 05:58:52 2026] [::1]:52620 Closing
+[Mon Sep 14 05:58:52 2026] [::1]:52636 Accepted
+[Mon Sep 14 05:58:52 2026] [::1]:52636 [200]: GET /place_order.php?type=maintenance
+[Mon Sep 14 05:58:52 2026] [::1]:52636 Closing
+[Mon Sep 14 05:58:52 2026] [::1]:52638 Accepted
+[Mon Sep 14 05:58:52 2026] [::1]:52638 [200]: GET /css/place_order.css
+[Mon Sep 14 05:58:52 2026] [::1]:52638 Closing
+[Mon Sep 14 05:58:52 2026] [::1]:52652 Accepted
+[Mon Sep 14 05:58:52 2026] [::1]:52652 [200]: GET /logo.jpg
+[Mon Sep 14 05:58:52 2026] [::1]:52652 Closing
+[Mon Sep 14 05:58:54 2026] [::1]:52662 Accepted
+[Mon Sep 14 05:58:54 2026] [::1]:52662 [200]: GET /sw.js
+[Mon Sep 14 05:58:54 2026] [::1]:52662 Closing
+[Mon Sep 14 06:25:19 2026] [::1]:45838 Accepted
+[Mon Sep 14 06:25:19 2026] [::1]:45838 [200]: GET /index.php
+[Mon Sep 14 06:25:19 2026] [::1]:45838 Closing
+[Mon Sep 14 06:25:19 2026] [::1]:45854 Accepted
+[Mon Sep 14 06:25:19 2026] [::1]:45862 Accepted
+[Mon Sep 14 06:25:19 2026] [::1]:45854 [200]: GET /css/index.css
+[Mon Sep 14 06:25:19 2026] [::1]:45862 [200]: GET /logo.jpg
+[Mon Sep 14 06:25:19 2026] [::1]:45854 Closing
+[Mon Sep 14 06:25:19 2026] [::1]:45862 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:45868 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:45868 [302]: POST /index.php
+[Mon Sep 14 06:25:20 2026] [::1]:45868 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:45872 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:45872 [200]: GET /home.php
+[Mon Sep 14 06:25:20 2026] [::1]:45872 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:45878 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:45892 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:45878 [200]: GET /css/user_dashboard.css
+[Mon Sep 14 06:25:20 2026] [::1]:45878 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:45892 [200]: GET /logo.jpg
+[Mon Sep 14 06:25:20 2026] [::1]:45892 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:45902 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:45902 [200]: GET /home.php?action=get_notifications
+[Mon Sep 14 06:25:20 2026] [::1]:45902 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:45912 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:45912 [200]: GET /sw.js
+[Mon Sep 14 06:25:20 2026] [::1]:45912 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:45928 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:45942 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:45956 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:45928 [200]: GET /
+[Mon Sep 14 06:25:20 2026] [::1]:45928 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:45942 [200]: GET /index.php
+[Mon Sep 14 06:25:20 2026] [::1]:45942 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:45956 [200]: GET /manifest.json
+[Mon Sep 14 06:25:20 2026] [::1]:45956 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:45958 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:45974 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:45958 [200]: GET /logo.jpg
+[Mon Sep 14 06:25:20 2026] [::1]:45974 [200]: GET /css/index.css
+[Mon Sep 14 06:25:20 2026] [::1]:45958 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:45974 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:45986 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:45990 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:45992 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:45986 [200]: GET /css/user_dashboard.css
+[Mon Sep 14 06:25:20 2026] [::1]:45986 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:45990 [200]: GET /css/admin_dashboard.css
+[Mon Sep 14 06:25:20 2026] [::1]:45990 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:45994 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:45992 [200]: GET /css/admin_office.css
+[Mon Sep 14 06:25:20 2026] [::1]:45992 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:45994 [200]: GET /css/admin_maintenance.css
+[Mon Sep 14 06:25:20 2026] [::1]:45994 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:45996 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:46002 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:45996 [200]: GET /css/in_stock.css
+[Mon Sep 14 06:25:20 2026] [::1]:46002 [200]: GET /css/request_history.css
+[Mon Sep 14 06:25:20 2026] [::1]:45996 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:46002 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:46008 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:46008 [200]: GET /icons/icon-192.png
+[Mon Sep 14 06:25:20 2026] [::1]:46008 Closing
+[Mon Sep 14 06:25:20 2026] [::1]:46012 Accepted
+[Mon Sep 14 06:25:20 2026] [::1]:46012 [200]: GET /icons/icon-512.png
+[Mon Sep 14 06:25:20 2026] [::1]:46012 Closing
+[Mon Sep 14 06:25:21 2026] [::1]:46022 Accepted
+[Mon Sep 14 06:25:21 2026] [::1]:46022 [200]: GET /user_schedule.php
+[Mon Sep 14 06:25:21 2026] [::1]:46022 Closing
+[Mon Sep 14 06:25:21 2026] [::1]:46028 Accepted
+[Mon Sep 14 06:25:21 2026] [::1]:46044 Accepted
+[Mon Sep 14 06:25:21 2026] [::1]:46028 [200]: GET /css/request_history.css
+[Mon Sep 14 06:25:21 2026] [::1]:46044 [200]: GET /logo.jpg
+[Mon Sep 14 06:25:21 2026] [::1]:46028 Closing
+[Mon Sep 14 06:25:21 2026] [::1]:46044 Closing
+[Mon Sep 14 06:25:23 2026] [::1]:46050 Accepted
+[Mon Sep 14 06:25:23 2026] [::1]:46050 [200]: GET /sw.js
+[Mon Sep 14 06:25:23 2026] [::1]:46050 Closing
+[Mon Sep 14 07:37:20 2026] [::1]:43650 Accepted
+[Mon Sep 14 07:37:20 2026] [::1]:43650 [200]: GET /index.php
+[Mon Sep 14 07:37:20 2026] [::1]:43650 Closing
+[Mon Sep 14 07:37:20 2026] [::1]:43666 Accepted
+[Mon Sep 14 07:37:20 2026] [::1]:43678 Accepted
+[Mon Sep 14 07:37:20 2026] [::1]:43666 [200]: GET /css/index.css
+[Mon Sep 14 07:37:20 2026] [::1]:43678 [200]: GET /logo.jpg
+[Mon Sep 14 07:37:20 2026] [::1]:43666 Closing
+[Mon Sep 14 07:37:20 2026] [::1]:43678 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43684 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43684 [302]: POST /index.php
+[Mon Sep 14 07:37:21 2026] [::1]:43684 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43690 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43690 [200]: GET /home.php
+[Mon Sep 14 07:37:21 2026] [::1]:43690 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43698 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43712 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43698 [200]: GET /css/user_dashboard.css
+[Mon Sep 14 07:37:21 2026] [::1]:43712 [200]: GET /logo.jpg
+[Mon Sep 14 07:37:21 2026] [::1]:43698 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43712 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43724 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43724 [200]: GET /home.php?action=get_notifications
+[Mon Sep 14 07:37:21 2026] [::1]:43724 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43738 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43738 [200]: GET /sw.js
+[Mon Sep 14 07:37:21 2026] [::1]:43738 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43746 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43758 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43746 [200]: GET /
+[Mon Sep 14 07:37:21 2026] [::1]:43746 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43762 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43758 [200]: GET /index.php
+[Mon Sep 14 07:37:21 2026] [::1]:43758 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43762 [200]: GET /manifest.json
+[Mon Sep 14 07:37:21 2026] [::1]:43762 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43778 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43786 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43800 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43778 [200]: GET /logo.jpg
+[Mon Sep 14 07:37:21 2026] [::1]:43786 [200]: GET /css/index.css
+[Mon Sep 14 07:37:21 2026] [::1]:43800 [200]: GET /css/user_dashboard.css
+[Mon Sep 14 07:37:21 2026] [::1]:43778 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43786 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43800 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43808 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43822 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43808 [200]: GET /css/admin_dashboard.css
+[Mon Sep 14 07:37:21 2026] [::1]:43838 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43822 [200]: GET /css/admin_office.css
+[Mon Sep 14 07:37:21 2026] [::1]:43838 [200]: GET /css/admin_maintenance.css
+[Mon Sep 14 07:37:21 2026] [::1]:43808 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43822 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43838 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43840 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43844 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43840 [200]: GET /css/in_stock.css
+[Mon Sep 14 07:37:21 2026] [::1]:43852 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43844 [200]: GET /css/request_history.css
+[Mon Sep 14 07:37:21 2026] [::1]:43852 [200]: GET /icons/icon-192.png
+[Mon Sep 14 07:37:21 2026] [::1]:43840 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43844 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43852 Closing
+[Mon Sep 14 07:37:21 2026] [::1]:43866 Accepted
+[Mon Sep 14 07:37:21 2026] [::1]:43866 [200]: GET /icons/icon-512.png
+[Mon Sep 14 07:37:21 2026] [::1]:43866 Closing
+[Mon Sep 14 07:37:22 2026] [::1]:52192 Accepted
+[Mon Sep 14 07:37:22 2026] [::1]:52192 [200]: GET /user_schedule.php
+[Mon Sep 14 07:37:22 2026] [::1]:52192 Closing
+[Mon Sep 14 07:37:22 2026] [::1]:52206 Accepted
+[Mon Sep 14 07:37:22 2026] [::1]:52210 Accepted
+[Mon Sep 14 07:37:22 2026] [::1]:52206 [200]: GET /css/request_history.css
+[Mon Sep 14 07:37:22 2026] [::1]:52206 Closing
+[Mon Sep 14 07:37:22 2026] [::1]:52210 [200]: GET /logo.jpg
+[Mon Sep 14 07:37:22 2026] [::1]:52210 Closing
+[Mon Sep 14 07:37:24 2026] [::1]:52222 Accepted
+[Mon Sep 14 07:37:24 2026] [::1]:52222 [200]: GET /sw.js
+[Mon Sep 14 07:37:24 2026] [::1]:52222 Closing

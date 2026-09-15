@@ -1,0 +1,116 @@
+:root {
+    --logo-blue: #1b4f9c;
+    --logo-blue-hover: #143d7a;
+    --logo-blue-dark: #0d2852;
+    --logo-yellow: #f5be16;
+    --logo-dark: #0f172a;
+    --logo-light-bg: #f1f5f9;
+    --border-color: #3b3c3e;
+    --card-border: #475569;
+    --tile-bg: #ffffff;
+    --tile-hover-bg: #ffffff;
+    --active-blue-border: #3b82f6;
+}
+
+body.dashboard-body {
+    background-color: var(--logo-light-bg);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: var(--logo-dark);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* NAVBAR & HEADER */
+.navbar-custom {
+    background-color: var(--logo-blue);
+    padding: 0.85rem 1.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand-logo {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+}
+
+.main-container {
+    flex: 1;
+}
+
+/* 2x2 DASHBOARD TILE CARDS (Exact match to image.png) */
+.dashboard-tile-card {
+    background-color: #ffffff;
+    border: 1.5px solid #2d3748;
+    border-radius: 12px;
+    padding: 3.25rem 2rem;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    cursor: pointer;
+}
+
+.dashboard-tile-card.active-blue-border,
+.dashboard-tile-card:hover {
+    border: 2px solid #3b82f6;
+    box-shadow: 0 6px 18px rgba(59, 130, 246, 0.12);
+}
+
+.tile-icon {
+    font-size: 2.85rem;
+    line-height: 1;
+}
+
+.text-primary {
+    color: #3b82f6 !important;
+}
+
+.text-warning {
+    color: #eab308 !important;
+}
+
+.text-info {
+    color: #06b6d4 !important;
+}
+
+.text-success {
+    color: #10b981 !important;
+}
+
+.tile-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 0.6rem;
+    letter-spacing: -0.2px;
+}
+
+.tile-description {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #64748b;
+    margin-bottom: 0;
+    line-height: 1.45;
+    max-width: 92%;
+}
+
+@media (max-width: 768px) {
+    .dashboard-tile-card {
+        padding: 2.25rem 1.25rem;
+        min-height: 180px;
+    }
+    .tile-title {
+        font-size: 1.1rem;
+    }
+    .tile-description {
+        font-size: 0.8rem;
+    }
+}
