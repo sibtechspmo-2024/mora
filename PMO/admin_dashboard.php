@@ -1401,6 +1401,31 @@ document.addEventListener("DOMContentLoaded", function() {
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('sw.js').catch(err => console.log('SW registration failed:', err));
     }
+
+    // Restore active tab from localStorage if available
+    var savedTab = localStorage.getItem('admin_active_tab');
+    if (savedTab) {
+        var tabTrigger = document.querySelector(`[data-bs-target="${savedTab}"], #${savedTab}`);
+        if (tabTrigger) {
+            // Remove server-rendered active class from office-req-tab
+            document.querySelectorAll('#adminTabs .nav-link, .tab-pane').forEach(function(el) {
+                el.classList.remove('active', 'show');
+            });
+            var tab = new bootstrap.Tab(tabTrigger);
+            tab.show();
+        }
+    }
+
+    // Store active tab on tab change
+    var tabEls = document.querySelectorAll('[data-bs-toggle="tab"]');
+    tabEls.forEach(function(tabEl) {
+        tabEl.addEventListener('shown.bs.tab', function(event) {
+            var target = event.target.getAttribute('data-bs-target') || event.target.getAttribute('id');
+            if (target) {
+                localStorage.setItem('admin_active_tab', target);
+            }
+        });
+    });
 });
 
 function openViewRequestModal(groupId, type) {

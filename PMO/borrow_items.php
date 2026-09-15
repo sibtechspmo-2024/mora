@@ -2,8 +2,8 @@
 session_start();
 require_once 'db.php';
 
-// Verification ng Session at Role
-if (!isset($_SESSION['user_id']) || strtolower($_SESSION['role'] ?? '') !== 'user') {
+// Verification ng Session
+if (!isset($_SESSION['user_id'])) {
     if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
         echo json_encode(['status' => 'error', 'message' => 'Unauthorized']);
         exit;
