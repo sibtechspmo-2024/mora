@@ -62,6 +62,7 @@ if (isset($_GET['fetch_requests']) && $_GET['fetch_requests'] == '1') {
                    IFNULL(i.item_name, r.item_name) as item_name
             FROM borrow_requests r
             LEFT JOIN items i ON r.item_id = i.id AND r.item_id > 0
+            WHERE r.status = 'Pending'
             ORDER BY r.id DESC
         ");
         if ($borrow_requests_res && $borrow_requests_res->num_rows > 0) {
@@ -524,6 +525,7 @@ $borrow_requests_res = $conn->query("
            IFNULL(i.item_name, r.item_name) as item_name
     FROM borrow_requests r
     LEFT JOIN items i ON r.item_id = i.id AND r.item_id > 0
+    WHERE r.status = 'Pending'
     ORDER BY r.id DESC
 ");
 if ($borrow_requests_res) {
