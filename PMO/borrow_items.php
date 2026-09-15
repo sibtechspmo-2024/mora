@@ -162,26 +162,13 @@ $catalog_items = $conn->query("SELECT * FROM items WHERE actual_stocks > 0 ORDER
                                 <label class="form-label fw-semibold text-dark">Department / Office</label>
                                 <input type="text" name="department" class="form-control fw-semibold" required placeholder="e.g. SPMO, HR, IT, Faculty">
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <label class="form-label fw-semibold text-dark">Borrow Start Date (At least 5 days in advance)</label>
                                 <input type="date" name="borrow_date" class="form-control fw-semibold" value="<?= date('Y-m-d', strtotime('+5 days')) ?>" min="<?= date('Y-m-d', strtotime('+5 days')) ?>" required>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <label class="form-label fw-semibold text-dark">Expected Return Date</label>
                                 <input type="date" name="expected_return_date" class="form-control fw-semibold" value="<?= date('Y-m-d', strtotime('+8 days')) ?>" min="<?= date('Y-m-d', strtotime('+5 days')) ?>" required>
-                            </div>
-                            <div class="col-md-4">
-                                <label class="form-label fw-semibold text-dark">Preferred Time Slot</label>
-                                <select name="scheduled_time" class="form-select fw-semibold" required>
-                                    <option value="08:00 AM - 09:00 AM">08:00 AM - 09:00 AM</option>
-                                    <option value="09:00 AM - 10:00 AM" selected>09:00 AM - 10:00 AM</option>
-                                    <option value="10:00 AM - 11:00 AM">10:00 AM - 11:00 AM</option>
-                                    <option value="11:00 AM - 12:00 PM">11:00 AM - 12:00 PM</option>
-                                    <option value="01:00 PM - 02:00 PM">01:00 PM - 02:00 PM</option>
-                                    <option value="02:00 PM - 03:00 PM">02:00 PM - 03:00 PM</option>
-                                    <option value="03:00 PM - 04:00 PM">03:00 PM - 04:00 PM</option>
-                                    <option value="04:00 PM - 05:00 PM">04:00 PM - 05:00 PM</option>
-                                </select>
                             </div>
                             <div class="col-md-12">
                                 <label class="form-label fw-semibold text-dark">Purpose of Borrowing</label>

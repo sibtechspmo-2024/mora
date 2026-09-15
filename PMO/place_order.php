@@ -303,19 +303,6 @@ $maint_items = $conn->query("SELECT * FROM maintenance_items WHERE actual_stocks
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12">
-                        <label class="form-label fw-semibold text-dark"><i class="bi bi-clock-history me-1 text-primary"></i>Scheduled Time Slot / Preferred Pickup</label>
-                        <select name="scheduled_time" class="form-select fw-semibold" required>
-                            <option value="08:00 AM - 09:00 AM">08:00 AM - 09:00 AM (Early Morning)</option>
-                            <option value="09:00 AM - 10:00 AM" selected>09:00 AM - 10:00 AM (Morning Slot 1)</option>
-                            <option value="10:00 AM - 11:00 AM">10:00 AM - 11:00 AM (Morning Slot 2)</option>
-                            <option value="11:00 AM - 12:00 PM">11:00 AM - 12:00 PM (Late Morning)</option>
-                            <option value="01:00 PM - 02:00 PM">01:00 PM - 02:00 PM (Early Afternoon)</option>
-                            <option value="02:00 PM - 03:00 PM">02:00 PM - 03:00 PM (Afternoon Slot 1)</option>
-                            <option value="03:00 PM - 04:00 PM">03:00 PM - 04:00 PM (Afternoon Slot 2)</option>
-                            <option value="04:00 PM - 05:00 PM">04:00 PM - 05:00 PM (Late Afternoon)</option>
-                        </select>
-                    </div>
                 </div>
 
                 <hr class="my-4 text-secondary opacity-25">
